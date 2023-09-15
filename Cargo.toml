@@ -1,14 +1,15 @@
 [package]
-name = "axum-server-sent-event-test"
+name = "axum-notification-test"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 axum = { version = "0.6.20", features = ["tokio", "headers"] }
 axum-macros = "0.3.8"
+base64ct = "1.6.0"
 futures = "0.3.28"
+hyper = { version = "0.14.27", features = ["client", "full"] }
+hyper-rustls = "0.24.1"
 serde = { version = "1.0.188", features = ["derive"] }
 serde_json = "1.0.107"
 tokio = { version = "1.32.0", features = ["full"] }
@@ -16,3 +17,4 @@ tokio-stream = { version = "0.1.14", features = ["full"] }
 tower-http = { version = "0.4.4", features = ["trace"] }
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
+web-push-native = "0.2.0"

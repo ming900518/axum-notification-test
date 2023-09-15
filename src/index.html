@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="manifest.json" rel="manifest" />
+        <title>即時訊息與推播通知測試</title>
+    </head>
+    <body>
+        <section>
+            <pre id="details"></pre>
+            <pre id="state"></pre>
+        </section>
+        <p></p>
+        <input id="userId" type="text" placeholder="輸入用戶 ID"></input>
+        <hr />
+        <button id="initPushBtn">註冊推播通知</button>
+        <br />
+        <button id="initSseBtn">接收即時訊息</button>
+        <script type="module" src="/index.js"></script>
+    </body>
+</html>

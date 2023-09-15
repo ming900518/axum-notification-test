@@ -1,0 +1,8 @@
+{
+    "name": "axum-notification-test",
+    "short_name": "axum-notification-test",
+    "description": "axum-notification-test",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "icons": []
+}
